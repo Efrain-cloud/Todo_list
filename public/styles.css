@@ -45,7 +45,7 @@ button:hover {
     opacity: 0.9;
 }
 button[onclick="verTarea()"] {
-    background-color: #1862ec; /* Green */
+    background-color: #1862ec; 
 }
 
 button[onclick="verTarea()"]:hover {
@@ -53,7 +53,7 @@ button[onclick="verTarea()"]:hover {
 }
 
 button[onclick="crearTarea()"] {
-    background-color: #28a745; /* Green */
+    background-color: #28a745; 
 }
 
 button[onclick="crearTarea()"]:hover {
@@ -61,7 +61,7 @@ button[onclick="crearTarea()"]:hover {
 }
 
 button[onclick="ocultarTarea()"] {
-    background-color: #dc3545; /* Red */
+    background-color: #dc3545; 
 }
 
 button[onclick="ocultarTarea()"]:hover {
