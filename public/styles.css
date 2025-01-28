@@ -1,0 +1,137 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin: 20px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%; text-align: center;
+}
+
+input[type="text"] {
+    width: calc(50% - 10px);
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+button[onclick="verTarea()"] {
+    background-color: #1862ec; /* Green */
+}
+
+button[onclick="verTarea()"]:hover {
+    background-color: #427deb;
+}
+
+button[onclick="crearTarea()"] {
+    background-color: #28a745; /* Green */
+}
+
+button[onclick="crearTarea()"]:hover {
+    background-color: #218838;
+}
+
+button[onclick="ocultarTarea()"] {
+    background-color: #dc3545; /* Red */
+}
+
+button[onclick="ocultarTarea()"]:hover {
+    background-color: #c82333;
+}
+
+#tareas {
+    margin-top: 20px;
+}
+
+.tareas-table {
+    text-align: center;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.tareas-table h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.tareas-table p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+.tareas-table button[onclick*="actualizarTarea"] {
+    background-color: #cecb0c; 
+    padding: 5px 10px;
+}
+
+.tareas-table button[onclick*="actualizarTarea"]:hover {
+    background-color: #f0ec10;
+    padding: 5px 10px;
+}
+
+.tareas-table button[onclick*="eliminarTarea"] {
+    background-color: #dc3545;
+    padding: 5px 10px; 
+}
+
+.tareas-table button[onclick*="eliminarTarea"]:hover {
+    background-color: #c82333;
+    padding: 5px 10px;
+}
+#caja1, #caja2, #caja3, #tareas {
+    width: 100%;
+    text-align: center;
+}
+.tareas-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.tareas-table th, .tareas-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.tareas-table th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+.tareas-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
